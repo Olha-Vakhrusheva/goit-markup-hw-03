@@ -59,8 +59,6 @@ body {
 
 header {
   background-color: var(--primary-white-color);
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -83,6 +81,8 @@ header {
 }
 
 .header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 
   color: var(--title-text-color);
@@ -163,8 +163,8 @@ header {
 /* Фильтр */
 
 .team-works {
-  display: flex;
-  align-items: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .current-filter {
@@ -194,9 +194,9 @@ header {
 .filter-list {
   display: flex;
   flex-direction: row;
-  padding-top: 94px;
-  padding-bottom: 34px;
+  margin-bottom: 50px;
   margin: auto;
+  justify-content: center;
 
   list-style: none;
   letter-spacing: 0.03em;
@@ -223,11 +223,15 @@ header {
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
+}
+
+.team-works {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .project-name-list > .project-item {
-  flex-basis: calc(100% / 3-30px);
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -267,10 +271,11 @@ header {
 
 .footer-nav {
   text-align: left;
-  padding-bottom: 60px;
 }
 
 .footer-link {
+  padding-top: 94px;
+  padding-bottom: 60px;
   background-color: var(--footer-background-color);
   text-decoration: none;
   letter-spacing: 0.03em;
@@ -296,8 +301,7 @@ header {
   line-height: 1.17;
 }
 .link-logo-footer {
-  padding-top: 60px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
   display: block;
 
   color: var(--logo-accent-color);
@@ -314,11 +318,11 @@ header {
 }
 
 .address-footer {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .mail-footer {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 /* оформление index.html */
@@ -326,8 +330,7 @@ header {
 /* Герой */
 
 .hero-title {
-  padding-top: 200px;
-  padding-bottom: 30px;
+  margin-bottom: 30px;
 
   color: var(--primary-white-color);
   font-weight: 900;
@@ -339,7 +342,8 @@ header {
 }
 
 .hero-background {
-  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--footer-background-color);
   text-align: center;
 }
@@ -347,7 +351,6 @@ header {
 /* Кнопка Заказать услугу */
 .button-hero {
   padding: 10px 32px;
-  margin-bottom: 200px;
   color: var(--primary-white-color);
   background-color: var(--logo-accent-color);
   font-family: inherit;
@@ -388,7 +391,7 @@ header {
 }
 
 .section-title {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .desc-item + .desc-item {
@@ -398,15 +401,17 @@ header {
 /* Чем мы занимаемся */
 
 .photo-section {
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 
 .photo-flex {
   display: flex;
 }
 
-.img-item {
+.img-block {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-item + .img-item {
@@ -431,13 +436,15 @@ header {
 
 /* Наша команда */
 
+.img-item {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .team-list {
   display: flex;
   padding-bottom: ;
-}
-
-.img-team {
-  display: block;
 }
 
 .team-div {
@@ -455,7 +462,7 @@ header {
 }
 
 .name-team {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 
   color: var(--title-text-color);
   font-weight: 500;
@@ -463,14 +470,11 @@ header {
   line-height: 1.17;
 }
 
-.team-item {
-  padding-top: 94px;
-}
-
 .team-background {
   background-color: var(--button-color);
   letter-spacing: 0.03em;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .position {
