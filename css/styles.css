@@ -38,6 +38,12 @@ button {
   cursor: pointer;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* оформление Портфолио */
 
 .container {
@@ -195,7 +201,6 @@ header {
   display: flex;
   flex-direction: row;
   margin-bottom: 50px;
-  margin: auto;
   justify-content: center;
 
   list-style: none;
@@ -248,15 +253,12 @@ header {
   letter-spacing: 0.03em;
 }
 
-.img-project {
-  display: block;
-}
-
 .text-project {
   padding: 20px 24px;
   border-width: 1px;
   border-color: rgba(238, 238, 238, 1);
   border-style: solid;
+  border-top: 0;
 }
 
 .project-name {
@@ -274,7 +276,7 @@ header {
 }
 
 .footer-link {
-  padding-top: 94px;
+  padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--footer-background-color);
   text-decoration: none;
@@ -344,6 +346,7 @@ header {
 .hero-background {
   padding-top: 200px;
   padding-bottom: 200px;
+
   background-color: var(--footer-background-color);
   text-align: center;
 }
@@ -351,6 +354,7 @@ header {
 /* Кнопка Заказать услугу */
 .button-hero {
   padding: 10px 32px;
+
   color: var(--primary-white-color);
   background-color: var(--logo-accent-color);
   font-family: inherit;
@@ -365,6 +369,11 @@ header {
 }
 
 /* Преимущества */
+
+.about-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .section-title {
   color: var(--title-text-color);
@@ -408,23 +417,12 @@ header {
   display: flex;
 }
 
-.img-block {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 .img-item + .img-item {
   margin-left: 30px;
 }
 
-.about-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .header-text {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -435,12 +433,6 @@ header {
 }
 
 /* Наша команда */
-
-.img-item {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
 
 .team-list {
   display: flex;
