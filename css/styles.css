@@ -89,7 +89,6 @@ header {
 .header-logo {
   padding-top: 24px;
   padding-bottom: 25px;
-  margin-right: 93px;
 
   color: var(--title-text-color);
   text-decoration: none;
@@ -121,6 +120,7 @@ header {
 
 .menu-list {
   display: flex;
+  margin-left: 93px;
 }
 .link-item {
   text-decoration: none;
@@ -233,17 +233,14 @@ header {
 .team-works {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .project-name-list > .project-item {
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
-}
-
-.team-project {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .project-name-list {
@@ -422,7 +419,7 @@ header {
 }
 
 .header-text {
-  margin-bottom: 50px;
+  padding-bottom: 50px;
 
   color: var(--title-text-color);
   font-weight: 700;
@@ -436,7 +433,6 @@ header {
 
 .team-list {
   display: flex;
-  padding-bottom: ;
 }
 
 .team-div {
